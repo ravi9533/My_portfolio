@@ -41,7 +41,7 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   transition: 0.3s;
 }
@@ -52,10 +52,10 @@ nav ul li a:hover {
 /* Hero Section */
 .hero {
   background: linear-gradient(rgba(37,117,252,0.8), rgba(106,17,203,0.8)),
-              url('1579768182phpGpR05q.jpeg') no-repeat center center/cover;
+              url('background image.jpeg') no-repeat center center/cover;
   color: #fff;
   text-align: center;
-  padding: 100px 20px;
+  padding: 10px 2px;
 }
 .hero h2 {
   font-size: 40px;
@@ -70,7 +70,7 @@ nav ul li a:hover {
 .hero .btn {
   background: #ffd700;
   color: #333;
-  padding: 12px 25px;
+  padding: 10px 25px;
   border-radius: 25px;
   font-weight: bold;
   text-decoration: none;
@@ -87,11 +87,11 @@ nav ul li a:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 60px 20px;
+  padding: 6px 20px;
   background: #b3a3cf;
 }
 .about img {
-  max-width: 320px;
+  max-width: 310px;
   border-radius: 15px;
   margin: 20px;
   box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
@@ -130,10 +130,10 @@ footer {
   background: linear-gradient(90deg, #2575fc, #6a11cb);
   color: white;
   text-align: center;
-  padding: 15px 0;
+  padding: 10px 0;
   margin-top: 20px;
 }
 footer p {
-  margin: 5px;
+  margin: 4px;
   font-size: 14px;
 }
