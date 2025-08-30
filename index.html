@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #fdfdfd;
+    }
+
+    /* Navbar */
+    header {
+      background: linear-gradient(90deg, #6a11cb, #2575fc);
+      color: #fff;
+      padding: 12px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header .container {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    header h1 span {
+      color: #ffd700;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    nav ul li {
+      margin: 0 12px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+    nav ul li a:hover {
+      color: #ffd700;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(rgba(37,117,252,0.8), rgba(106,17,203,0.8)),
+                  url('1579768182phpGpR05q.jpeg') no-repeat center center/cover;
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 25px;
+    }
+    .hero .btn {
+      background: #ffd700;
+      color: #333;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .hero .btn:hover {
+      background: #ff9800;
+      color: #fff;
+    }
+
+    /* About Section */
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px;
+      background: #b3a3cf;
+    }
+    .about img {
+      max-width: 320px;
+      border-radius: 15px;
+      margin: 20px;
+      box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+    }
+    .about-text {
+      max-width: 600px;
+      margin: 20px;
+    }
+    .about-text h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      color: #2575fc;
+    }
+    .about-text p {
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    .about-text .btn {
+      display: inline-block;
+      margin-top: 15px;
+      background: linear-gradient(90deg, #ff512f, #dd2476);
+      color: #f6f3f3;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .about-text .btn:hover {
+      background: linear-gradient(90deg, #dd2476, #ff512f);
+    }
+
+    /* Footer */
+    footer {
+      background: linear-gradient(90deg, #2575fc, #6a11cb);
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+    }
+    footer p {
+      margin: 5px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1><span>Online Portfolio</span></h1>
+      <nav>
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT ME</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#">SKILL</a></li>
+          <li><a href="#">TESTIMONIAL</a></li>
+          <li><a href="#">EXPERIENCE</a></li>
+          <li><a href="#">WORKS</a></li>
+          <li><a href="contact.png">CONTACT</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>RAVI CHAURASIYA</h2>
+    <p>Hi, I am a Professional Developer and CSE Degree holder.<br>
+       I have five years of experience in the Computer Science & Engineering sector as a Lecturer, I'd like...</p>
+    <a href="#" class="btn">Hire Me</a>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <img src="IMG-20250124-WA0000 2.jpg" alt="Ravi Chaurasiya" class="profile-image">
+    <div class="about-text">
+      <h2>ABOUT ME</h2>
+      <p>I am Developer blending expertise with industry know-how to guide your next project development.</p>
+      <p>
+        Software Developers use software development languages and tools to write, edit, maintain,
+        and test computer software. Following the software development lifecycle (SDLC), 
+        we design, build, test, and deploy applications—from websites and mobile apps to 
+        enterprise systems and video games.
+      </p>
+      <a href="Black and White Clean Professional A4 Resume.pdf" class="btn">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Ravi Chaurasiya | All Rights Reserved</p>
+    <p>Follow me on: 
+      <a href="https://www.linkedin.com/" target="_blank" style="color: #ffd700; text-decoration: none;">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="height:18px; vertical-align:middle; margin-right:5px;">LinkedIn
+      </a> | 
+      <a href="https://twitter.com/" target="_blank" style="color: #ffd700; text-decoration: none;">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitter.svg" alt="Twitter" style="height:18px; vertical-align:middle; margin-right:5px;">Twitter
+      </a> | 
+      <a href="https://www.instagram.com/" target="_blank" style="color: #ffd700; text-decoration: none;">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" style="height:18px; vertical-align:middle; margin-right:5px;">Instagram
+      </a>
+    </p>
+  </footer>
+
+</body>
+</html>
